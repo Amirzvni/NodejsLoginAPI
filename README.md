@@ -6,7 +6,7 @@ NodeJS + MongoDB API for User Management, Authentication and Registration
 استارت سرور 
 
 `npm install
-<br>
+&&
 npm start
 `
 
@@ -14,11 +14,11 @@ npm start
 
 ساخت یوزر جدید 
 <br>
-`req : POST
-<br>
-endpoint : http://localhost:4000/users/register
-<br>
-body : {
+`req : POST`
+
+`endpoint : http://localhost:4000/users/register`
+
+`body : {
     "firstName": "amir",
     "lastName": "rezvani",
     "username": "amir85",
