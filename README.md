@@ -8,6 +8,9 @@ NodeJS + MongoDB API for User Management, Authentication and Registration
 `npm install
 npm start
 `
+\
+
+
 ساخت یوزر جدید 
 
 req : POST
