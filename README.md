@@ -27,28 +27,28 @@ npm start
 <br>
 ورود یوزر
 <br>
-`req : POST
-endpoint : http://localhost:4000/users/authenticate
-body : {
+`req : POST`
+`endpoint : http://localhost:4000/users/authenticate`
+`body : {
     "username": "amir85",
     "password": "123"
-}
-`
+}`
+
 <br>
 دریافت تمام کاربران
 <br>
-`req : GET
-endpoint : http://localhost:4000/users
-Authorization : Bearer Token
-`
+`req : GET`
+`endpoint : http://localhost:4000/users`
+`Authorization : Bearer Token`
+
 <br>
 آپدیت کاربران
 <br>
-`
-req : PUT
-endpoint : http://localhost:4000/users/{id}
-body : {
+
+`req : PUT`
+`endpoint : http://localhost:4000/users/{id}`
+`body : {
     "firstName": "amir hossein",
     "lastName": "rezvani"
-}
-`
+}`
+
